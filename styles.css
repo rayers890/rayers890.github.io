@@ -1,0 +1,95 @@
+/*menu bar*/
+.tab {
+    overflow: hidden;
+    background-color: black;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+.tab button {
+    background-color: inheriet;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    transition: 0.3s;
+}
+.tab button:hover {
+    background-color: rgb(248, 246, 246);}
+.tab button.active {
+    background-color: rgb(128, 125, 125);}
+.tabcontent {
+    display: none;
+    padding: 10px 75px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+/*body and headers*/
+h2 {
+    background-color: rgb(240, 233, 142); 
+    color:black; 
+    text-align: center; 
+    font-family: Serif, Georgia;
+    font-size: 40px}
+h3 {
+    color: black;
+    font-family: tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*body and others*/
+body {
+    background-color: rgb(240, 233, 142);
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    font-family: tahoma, sans-serif;
+}
+dt {
+    text-align: left;
+    color:rgba(0, 0, 255, 0.836);
+}
+dd {
+    text-align: left;
+    margin-right: 50px;
+    font-size: 14px;
+    font-family: tahoma, sans-serif;
+}
+ul {
+    text-align: left;
+}
+div {
+    background-color: white
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: tahoma, sans-serif;
+}
+th {
+    font-size: 16px;
+}
+td {
+    font-size: 14px;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    font-family:'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.clientform{
+    padding: 50px;
+    font-family: tahoma, sans-serif;
+    font-size: 14px;
+}
